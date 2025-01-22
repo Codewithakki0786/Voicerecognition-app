@@ -1,0 +1,63 @@
+*{
+  
+
+    padding :0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    width: 100%;
+    background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilWQT8xXE3WyvHlvZhmq5nPWZfSjBdGgUxOAiGXJCnH-dosPrdu0MS0nk1nsKXoc7Uh9oLXfbzK2FoFODS8nMRsO1g_JvfR2963CKu3L8DGFnmkRPsM8y9AORE0uI0-ZcrYmnomwbDbOjvqV3iuPuLmauc2D3PIzLNxJhEgTMY8f71-gkQZNN8-w7fh4WY/s560/AI-Based%20Voice%20Recognition%20System.jpeg");
+    background-repeat:no-repeat;
+    background-position: center;
+
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.assist{
+    height: 100vh;
+    display: flex;
+    max-width: 600px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.assista{
+    /* margin-right: 110vh; */
+    text-transform: capitalize;
+    font-size: 26px;
+    position: absolute;
+    color:rgba(15, 224, 61, 0.91);
+    font-weight: bold;
+    margin-top: 60%;
+    text-align: center;
+}
+.btn{
+    height: 40px;
+    padding:10px 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background-color: rgb(17, 40, 190);
+    color: black;
+    font-weight: 600px;
+    border: none;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.name{
+    /* margin-right: 110vh; */
+    text-transform: capitalize;
+    font-size: 25px;
+    position: absolute;
+    color:rgba(15, 224, 61, 0.91);
+    font-weight: bold;
+    margin-top: 70%;
+    margin-left: 60px;
+    text-align: center;
+}
+
+    
